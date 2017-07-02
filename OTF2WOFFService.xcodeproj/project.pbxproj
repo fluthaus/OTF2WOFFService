@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F0189571F06ACEE009F2558 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0189561F06ACEE009F2558 /* main.m */; };
+		4F01895C1F06ACEF009F2558 /* OTF2WOFFService.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F01895B1F06ACEF009F2558 /* OTF2WOFFService.xcassets */; };
+		4F0189691F06B108009F2558 /* OTF2WOFFService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0189671F06B108009F2558 /* OTF2WOFFService.m */; };
+		4F01896E1F06B13C009F2558 /* woff.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F01896C1F06B13C009F2558 /* woff.c */; };
+		4F0189711F06B3F6009F2558 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0189701F06B3F6009F2558 /* libz.tbd */; };
+		4F0189731F06B3FF009F2558 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0189721F06B3FF009F2558 /* CoreServices.framework */; };
+		4F0189751F06B406009F2558 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0189741F06B406009F2558 /* Cocoa.framework */; };
+		4F0189771F06B40D009F2558 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0189761F06B40D009F2558 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F01894F1F06ACEE009F2558 /* OTF2WOFF.service */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTF2WOFF.service; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F0189561F06ACEE009F2558 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F01895B1F06ACEF009F2558 /* OTF2WOFFService.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = OTF2WOFFService.xcassets; sourceTree = "<group>"; };
+		4F0189601F06ACEF009F2558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F0189671F06B108009F2558 /* OTF2WOFFService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTF2WOFFService.m; sourceTree = "<group>"; };
+		4F0189681F06B108009F2558 /* OTF2WOFFService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTF2WOFFService.h; sourceTree = "<group>"; };
+		4F01896B1F06B13C009F2558 /* woff-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "woff-private.h"; sourceTree = "<group>"; };
+		4F01896C1F06B13C009F2558 /* woff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = woff.c; sourceTree = "<group>"; };
+		4F01896D1F06B13C009F2558 /* woff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = woff.h; sourceTree = "<group>"; };
+		4F0189701F06B3F6009F2558 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4F0189721F06B3FF009F2558 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		4F0189741F06B406009F2558 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4F0189761F06B40D009F2558 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F01894C1F06ACEE009F2558 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0189771F06B40D009F2558 /* Foundation.framework in Frameworks */,
+				4F0189751F06B406009F2558 /* Cocoa.framework in Frameworks */,
+				4F0189731F06B3FF009F2558 /* CoreServices.framework in Frameworks */,
+				4F0189711F06B3F6009F2558 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F0189461F06ACEE009F2558 = {
+			isa = PBXGroup;
+			children = (
+				4F01896A1F06B13C009F2558 /* jkew_woff */,
+				4F0189511F06ACEE009F2558 /* OTF2WOFFService */,
+				4F01896F1F06B3F6009F2558 /* Frameworks */,
+				4F0189501F06ACEE009F2558 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F0189501F06ACEE009F2558 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F01894F1F06ACEE009F2558 /* OTF2WOFF.service */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F0189511F06ACEE009F2558 /* OTF2WOFFService */ = {
+			isa = PBXGroup;
+			children = (
+				4F0189681F06B108009F2558 /* OTF2WOFFService.h */,
+				4F0189671F06B108009F2558 /* OTF2WOFFService.m */,
+				4F0189561F06ACEE009F2558 /* main.m */,
+				4F0189601F06ACEF009F2558 /* Info.plist */,
+				4F01895B1F06ACEF009F2558 /* OTF2WOFFService.xcassets */,
+			);
+			name = OTF2WOFFService;
+			sourceTree = SOURCE_ROOT;
+		};
+		4F01896A1F06B13C009F2558 /* jkew_woff */ = {
+			isa = PBXGroup;
+			children = (
+				4F01896D1F06B13C009F2558 /* woff.h */,
+				4F01896B1F06B13C009F2558 /* woff-private.h */,
+				4F01896C1F06B13C009F2558 /* woff.c */,
+			);
+			path = jkew_woff;
+			sourceTree = "<group>";
+		};
+		4F01896F1F06B3F6009F2558 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F0189761F06B40D009F2558 /* Foundation.framework */,
+				4F0189741F06B406009F2558 /* Cocoa.framework */,
+				4F0189721F06B3FF009F2558 /* CoreServices.framework */,
+				4F0189701F06B3F6009F2558 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F01894E1F06ACEE009F2558 /* OTF2WOFFService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F0189631F06ACEF009F2558 /* Build configuration list for PBXNativeTarget "OTF2WOFFService" */;
+			buildPhases = (
+				4F0189661F06B051009F2558 /* ShellScript */,
+				4F01894B1F06ACEE009F2558 /* Sources */,
+				4F01894C1F06ACEE009F2558 /* Frameworks */,
+				4F01894D1F06ACEE009F2558 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTF2WOFFService;
+			productName = OTF2WOFFService;
+			productReference = 4F01894F1F06ACEE009F2558 /* OTF2WOFF.service */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F0189471F06ACEE009F2558 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = NoHalfBits;
+				TargetAttributes = {
+					4F01894E1F06ACEE009F2558 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4F01894A1F06ACEE009F2558 /* Build configuration list for PBXProject "OTF2WOFFService" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4F0189461F06ACEE009F2558;
+			productRefGroup = 4F0189501F06ACEE009F2558 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F01894E1F06ACEE009F2558 /* OTF2WOFFService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F01894D1F06ACEE009F2558 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F01895C1F06ACEF009F2558 /* OTF2WOFFService.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F0189661F06B051009F2558 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "build=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\n((build += 1))\nbuild=$(printf \"%d\" $build)\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $build\" \"$INFOPLIST_FILE\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F01894B1F06ACEE009F2558 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F01896E1F06B13C009F2558 /* woff.c in Sources */,
+				4F0189691F06B108009F2558 /* OTF2WOFFService.m in Sources */,
+				4F0189571F06ACEE009F2558 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4F0189611F06ACEF009F2558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4F0189621F06ACEF009F2558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4F0189641F06ACEF009F2558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = OTF2WOFFService;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_PKGINFO_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /Library/Services;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fluthaus.OTF2WOFFService;
+				PRODUCT_NAME = OTF2WOFF;
+				WRAPPER_EXTENSION = service;
+			};
+			name = Debug;
+		};
+		4F0189651F06ACEF009F2558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = OTF2WOFFService;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				GENERATE_PKGINFO_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /Library/Services;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fluthaus.OTF2WOFFService;
+				PRODUCT_NAME = OTF2WOFF;
+				WRAPPER_EXTENSION = service;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F01894A1F06ACEE009F2558 /* Build configuration list for PBXProject "OTF2WOFFService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F0189611F06ACEF009F2558 /* Debug */,
+				4F0189621F06ACEF009F2558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F0189631F06ACEF009F2558 /* Build configuration list for PBXNativeTarget "OTF2WOFFService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F0189641F06ACEF009F2558 /* Debug */,
+				4F0189651F06ACEF009F2558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F0189471F06ACEE009F2558 /* Project object */;
+}
